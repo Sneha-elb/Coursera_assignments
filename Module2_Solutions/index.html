@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Responsive Layout</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+div#container {
+  background-color: #00FFFF;
+  position: relative;
+}
+div#container1{
+  background-color: #00FFFF;
+  position: relative;
+}
+div#container2{
+  background-color: #00FFFF;
+  position: relative;
+}
+
+p {
+  float: left;
+  border: 2px solid white;
+  margin-bottom: 15px;
+}
+
+#p1 {
+  background-color: #A52A2A;
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+ 
+  
+}
+#p2 {
+  background-color: #DEB887;
+  width: 200px;
+  height:300px;
+  padding: 20px;
+ 
+}
+#p3 {
+  background-color: #00B787;
+  width: 200px;
+  height:300px;
+  padding: 20px;
+}
+#p4{
+	background-color:  #00B787;
+}
+#p5{
+	background-color: #A52A2A;
+}
+#p6{
+	background-color: #DEB887;
+}
+
+
+
+body {
+    background-color: green;
+  }
+ @media (min-width: 992px) {
+  #p1 {
+    width: 30%;
+    margin-left: 10px
+  }
+  #p2 {
+    width: 30%;
+    margin-left: 10px
+  }
+  #p3 {
+    width:30% ;
+    margin-left: 10px
+  }
+  #p4{
+  	position: absolute;
+  	top:0px;
+  	left:28%;
+  }
+
+#p5{
+  	position: absolute;
+  	top:0px;
+  	left:59%;
+  }
+  #p6{
+  	position: absolute;
+  	top:0px;
+  	left:89.8%;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  #p1 {
+    width: 40%;
+    margin-left: 10px;
+  }
+  #p2 {
+    width: 40%;
+    margin-left: 10px;
+   
+  }
+
+  #p3 {
+    width: 100%;
+   
+  }
+  
+  #p4{
+  	position: absolute;
+  	top:0px;
+  	left:37%;
+  }
+  #p5{
+  	position: absolute;
+  	top:0px;
+  	left:78.5%;
+  }
+  #p6{
+  	position: absolute;
+  	top:333px;
+  	right: 0.2%;
+  }
+}
+  @media (max-width: 767px) {
+  #p1 {
+    width: 100%;
+  }
+  #p2 {
+    width: 100%;
+    
+  }
+  #p3 {
+    width:100% ;
+  }
+  #p4{
+  	position: absolute;
+  	top:0px;
+  	right:0.5%;
+  }
+  #p5{
+  	position: absolute;
+  	top:333px;
+    right:0.5%;
+  }
+  #p6{
+  	position: absolute;
+  	top:664px;
+  	right:0.5%;
+  }
+}
+</style>
+</head>
+<body>
+<h1>FOOD MENU</h1>
+<div id="container">
+
+<p id="p1">
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p id="p4">Title</p>
+</div>
+<div id="container1">
+<p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p id="p5">Title</p>
+</div>
+<div id="container2">
+<p id="p3">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+<p id="p6">Title</p>
+</div>
+
+</div>
+</body>
+</html>
